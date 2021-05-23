@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<title>Login</title>
+			<style type="text/css">
+		
+			#form {
+				width: 25%;
+				margin: 0 auto;
+				margin-top: 100px;
+				}
+
+			label.username, label.password, label.level {
+				font-weight: bold;
+				}
+		
+			input.input {
+				border: 1px solid #f2f2f2;
+				padding: 10px;
+				width: 100%;
+				}
+
+			button.btn {
+				color: #de6581;
+				text-decoration: none;
+				width: 107%;
+				padding: 10px;
+				background: rgba(18, 188, 231, 0.26);
+				border: 6px solid #f2f2f2;
+				}
+			
+			button.btn:hover {
+				background: #ffffff;
+				color: #37abc8;
+				font-weight: bold;
+				}
+			</style>
+	</head>
+<body>
+	<div id="form">
+	<form method="post" action="login2.php" >
+		<label class="username">Username</label><br>
+		<input class="input" type="text" name="txtusername" id="txtusername" placeholder="Masukkan Username"><br>
+		<label class="password">Password</label><br>    	
+		<input class="input" type="password" name="txtpassword" id="txtpassword" placeholder="Masukkan Password"><br>
+		<br><button type="submit" name="submit" class="btn">Login</button>
+	</form>
+	</div>
+</body>
+</html>
